@@ -4,9 +4,6 @@ from django.db.models import F
 from celeryapp.models import Customer
 import logging
 import pytz
-from datetime import timezone as dt_timezone
-from datetime import timezone as dt_timezone
-dt_timezone.utc
 
 logger = logging.getLogger(__name__)
 
